@@ -1,0 +1,95 @@
+.vision {
+  background-image: url("../../assets/images/vision.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.vision h2 {
+  color: var(--neutral-d-grey, #4d4d4d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 38.06px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.vision-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.vision-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 218.625px;
+  height: 320.929px;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  box-shadow: 1px 1px 6px #000;
+  background: #fff;
+}
+
+.vision-card-para {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.vision-card-heading {
+  color: #263238;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (min-width: 2651px) {
+  /* Styles for screens above 2650px */
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  /* Styles for screens between 2560px and 1441px */
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  /* Styles for screens between 1440px and 1281px */
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  /* Styles for screens between 1280px and 1025px */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* Styles for screens between 1024px and 769px */
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+  /* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+  /* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens under 320px */
+}

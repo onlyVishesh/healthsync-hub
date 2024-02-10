@@ -1,0 +1,122 @@
+.mentor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentor-heading {
+  color: #4d4d4d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.mentor-cards {
+  display: flex;
+  width: 95%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.mentor-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.mentor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 6px #000;
+  border-radius: 5%;
+  gap: 0.5rem;
+  margin: 2rem 1rem;
+}
+
+.mentor-img {
+  width: 320px;
+}
+
+.mentor-name {
+  color: var(--black, #080809);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%; /* 41.085px */
+  letter-spacing: 0.495px;
+}
+
+.mentor-place {
+  color: var(--text-2, #84829a);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124.5%; /* 19.92px */
+  letter-spacing: -0.08px;
+}
+
+.mentor-para {
+  color: var(--text-2, #84829a);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.mentor-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mentor-links {
+  width: 40px;
+}
+
+@media screen and (min-width: 2651px) {
+  /* Styles for screens above 2650px */
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  /* Styles for screens between 2560px and 1441px */
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  /* Styles for screens between 1440px and 1281px */
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  /* Styles for screens between 1280px and 1025px */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* Styles for screens between 1024px and 769px */
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+  /* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+  /* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens under 320px */
+}

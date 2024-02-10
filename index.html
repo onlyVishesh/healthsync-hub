@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/src/assets/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+
+  <meta name="keywords" content="Healthcare, 24/7 Support, Healthcare, Ambulances, BLS, ALS, PTS, MA, Emergency">
+    <title>HealthSync Hub</title>
+
+    <style>
+      .preload-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  
+  .preload-img {
+    animation: scaleInOut 2.5s infinite cubic-bezier(.17,.67,.83,.67);
+    max-width: 250px;
+  }
+  
+  .preload-img > img {
+    width: 100%;
+  }
+  
+  @keyframes scaleInOut {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    50% {
+      transform: scale(1.075);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .preload-img {
+      max-width: 150px;
+    }
+  }
+  
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="preload-wrapper">
+        <div class="preload-img">
+          <img
+            src="/heart.png"
+            alt=""
+          />
+        </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

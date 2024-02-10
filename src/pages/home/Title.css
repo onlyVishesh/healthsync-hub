@@ -1,0 +1,102 @@
+.title {
+  display: flex;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 4rem;
+}
+.title-content-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 91px;
+  font-family: Poppins;
+  line-height: 1.1;
+  margin-top: 2rem;
+}
+
+.title-content-heading span {
+  color: #e85a4f;
+}
+
+@media screen and (min-width: 2651px) {
+  /* Styles for screens above 2650px */
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  /* Styles for screens between 2560px and 1441px */
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  /* Styles for screens between 1440px and 1281px */
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  /* Styles for screens between 1280px and 1025px */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* Styles for screens between 1024px and 769px */
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+  /* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+  /* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens under 320px */
+}
+
+.title-content-para {
+  color: #333;
+
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  width: 80%;
+}
+
+.btns {
+  display: flex;
+  gap: 10rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.social-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.explore button {
+  width: 120px;
+  height: 54px;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #fd0808;
+  font-family: Lato;
+  font-size: 16px;
+  color: #fff;
+}
+
+.social-btn img {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border: 1.5px solid #000;
+  border-radius: 50%;
+}
+
+.title-image img {
+  width: 600px;
+  padding-right: 5rem;
+}

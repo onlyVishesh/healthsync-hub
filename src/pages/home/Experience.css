@@ -1,0 +1,131 @@
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.experience-heading {
+  color: #4d4d4d;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.exp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.experience-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0rem 5rem;
+  margin-top: -4rem;
+}
+
+.experience-text h4 {
+  color: #dc1f27;
+
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+}
+.experiences-points {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.experience-points {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.experience-points ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.experience-points ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.experience-point {
+  color: #5c6574;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 140% */
+}
+
+.exp-btn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: auto;
+  padding: 13px;
+  border-top-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  background-color: #fd0808;
+  font-family: Lato;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.explore {
+  margin-top: 2rem;
+}
+.experience-img {
+  transform: scale(0.85);
+}
+
+@media screen and (min-width: 2651px) {
+  /* Styles for screens above 2650px */
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  /* Styles for screens between 2560px and 1441px */
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  /* Styles for screens between 1440px and 1281px */
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  /* Styles for screens between 1280px and 1025px */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  /* Styles for screens between 1024px and 769px */
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+  /* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+  /* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens under 320px */
+}

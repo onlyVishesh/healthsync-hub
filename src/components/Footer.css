@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  display: block;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+
+button {
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-family: Inter;
+  line-height: 1.5;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  gap: 1rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.headings {
+  font-size: 24px;
+}
+
+.apk {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.apk button {
+  display: flex;
+  border-radius: 1.5vh;
+  align-items: center;
+  padding: 0.5vw 1vw;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #ffffff10;
+}
+
+button span {
+  font-size: 2.2vh;
+  font-weight: bold;
+}
+
+.play-store-img {
+  width: 5vh;
+}
+.apple-store-img {
+  width: 4.5vh;
+  padding-right: 10px;
+}
+
+.apk-p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.4vh;
+}
+
+.links-section {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.Knowus,
+.Services,
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Knowus h2,
+.Services h2,
+.contact h2 {
+  font-size: 20px;
+}
+
+.Knowus li,
+.Services li {
+  display: flex;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  /* justify-content: center; */
+}
+
+.contact li {
+  justify-content: flex-start;
+  display: flex;
+  list-style: none;
+}
+
+.Knowus ul a,
+.Services ul a,
+.contact ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact .about-h2 {
+  margin-bottom: 2rem;
+}
+
+.Knowus ul,
+.Services ul,
+.contact ul {
+  padding: 0;
+}
+
+.contact li {
+  display: flex;
+  align-items: center;
+}
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.contact li span {
+  margin-left: 10px;
+  margin-top: -26px;
+}
+.contact li img {
+  width: 2.5vw;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  gap: 4vw;
+  margin: 8px 0;
+}
+
+.icons img {
+  width: 25px;
+  height: auto;
+}
+
+.icons img:hover {
+  cursor: pointer;
+  scale: 1.3;
+  transition: 0.3s;
+}
+div.pic {
+  display: flex;
+}
+.pic img {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 15vh;
+}
+img.play-store {
+  margin-top: 0px;
+  height: 6vh;
+}
+img.app-store {
+  margin: 10px;
+}
+
+img.play-store:hover,
+img.app-store:hover {
+  cursor: pointer;
+}
+/* contact us styling */
+.about-h2 {
+  text-align: center;
+}
+
+a[href^="tel:"] {
+  color: white;
+  text-decoration: none;
+}
+a[href^="mailto:"] {
+  color: white;
+  text-decoration: none;
+}
+a[href^="geo:"] {
+  color: white;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 2651px) {
+  /* Styles for screens above 2650px */
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  /* Styles for screens between 2560px and 1441px */
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  .Knowus ul,
+  .Services ul,
+  .contact ul {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .headings {
+    font-size: 20px;
+  }
+  .left {
+    gap: 0.9rem;
+  }
+  .icons img {
+    width: 20px;
+    height: auto;
+  }
+  .Knowus h2,
+  .Services h2,
+  .contact h2 {
+    font-size: 16px;
+  }
+  .Knowus ul,
+  .Services ul,
+  .contact ul {
+    font-size: 12px;
+  }
+  .copyright {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .headings {
+    font-size: 20px;
+  }
+  .left {
+    gap: 0.9rem;
+  }
+  .icons img {
+    width: 20px;
+    height: auto;
+  }
+  .Knowus h2,
+  .Services h2,
+  .contact h2 {
+    font-size: 16px;
+  }
+  .Knowus ul,
+  .Services ul,
+  .contact ul {
+    font-size: 12px;
+  }
+  .copyright {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+  /* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+  /* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens under 320px */
+}

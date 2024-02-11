@@ -1,0 +1,270 @@
+header {
+  position: relative;
+}
+
+#navbar {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  gap: 2vw;
+  height: 8vh;
+  padding: 1rem 2rem 1rem 5rem;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  transition: 0.3s;
+  width: 100%;
+  z-index: 1000;
+}
+
+#logo img {
+  transition: 0.3s;
+}
+
+#logo1 {
+  flex: 1;
+  height: 8vh;
+  margin-top: 0vw;
+}
+
+.right-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.5vw;
+}
+
+.laptop-links {
+  margin-right: 6vw;
+}
+
+.links {
+  color: #333;
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  gap: 5vw;
+  margin-right: 4vw;
+}
+
+.link a {
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  -ms-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
+.links a:hover {
+  border-radius: 0.7vw;
+  color: #e8594f98;
+}
+
+.links a:active {
+  background: linear-gradient(90deg, #e85a4f);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 50% 4px;
+}
+.login-btn {
+  display: flex;
+  color: #fff !important;
+  width: 173px;
+  padding: 12px 32px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 8px;
+  background-color: #fd0808;
+  margin-left: 4vw;
+}
+
+.login-btn:hover,
+.login-btn a:hover {
+  color: #bcbcbc !important;
+}
+
+.toggle_btn {
+  cursor: pointer;
+  display: none;
+  font-size: 3vh;
+}
+
+.dropdown_menu {
+  border-radius: 10px;
+  display: none;
+  height: 0px;
+  overflow: hidden;
+  padding: 0.5vw;
+  position: fixed;
+  right: 3%;
+  top: 8vh;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  width: 200px;
+  z-index: 10;
+}
+
+.dropdown_menu li {
+  align-items: center;
+  display: flex;
+  font-size: 2.5vh;
+  justify-content: center;
+  padding: 0.7vw;
+  font-family: Lato;
+}
+
+.dropdown_menu.open {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.6);
+  background-color: #e85a4f;
+
+  height: fit-content;
+}
+
+.dropdown_menu li {
+  color: #3d4347;
+  position: relative;
+}
+
+.dropdown_menu li:hover {
+  transform: scaleX(1.1);
+}
+@media (max-width: 850px) {
+  #navbar .links,
+  #navbar .language {
+    display: none;
+  }
+
+  #navbar .toggle_btn {
+    display: block;
+  }
+
+  .dropdown_menu {
+    display: block;
+  }
+
+  .dropdown_menu a {
+    color: white;
+  }
+  #navbar {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .dropdown_menu {
+    left: 5%;
+    width: 90%;
+  }
+}
+
+.underline {
+  background: linear-gradient(90deg, #e85a4f 0%, #e8594f88 50%, #e85a4f 100%);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 30% 7px;
+}
+.under {
+  padding: 5px;
+  background: linear-gradient(90deg, #e85a4f 0%, #e8594f88 50%, #e85a4f 100%);
+  background-repeat: no-repeat;
+  background-size: 50% 4px;
+  background-position: bottom;
+}
+
+.openModelBtn {
+  background-color: #3387e8;
+  padding: 0.5vw;
+  border-radius: 0.9vw;
+  color: #ededed;
+}
+
+@media screen and (min-width: 2651px) {
+  .links {
+    font-size: 35px;
+    gap: 6vw;
+    margin-right: 5vw;
+  }
+  .login-btn {
+    width: 200px;
+    padding: 12px 32px;
+    font-size: 20px;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  .links {
+    font-size: 25px;
+    gap: 4vw;
+    margin-right: 4vw;
+  }
+  .login-btn {
+    width: 178px;
+    padding: 12px 32px;
+    font-size: 16px;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px) {
+  .links {
+    font-size: 23px;
+    gap: 4vw;
+    margin-right: 4vw;
+  }
+  .login-btn {
+    width: 178px;
+    padding: 12px 32px;
+    font-size: 16px;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .links {
+    font-size: 17px;
+    gap: 3vw;
+    margin-right: 4vw;
+  }
+  .login-btn {
+    width: 178px;
+    padding: 12px 32px;
+    font-size: 14px;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  #navbar {
+    padding: 1rem 2rem 1rem 2.5rem;
+  }
+  .links {
+    font-size: 15px;
+    gap: 3vw;
+    margin-right: 3.5vw;
+  }
+  .login-btn {
+    width: 165px;
+    padding: 12px 32px;
+    font-size: 12px;
+    margin-left: 4vw;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 541px) {
+  /* Styles for screens between 768px and 541px */
+}
+
+@media screen and (max-width: 540px) and (min-width: 321px) {
+  /* Styles for screens between 540px and 321px */
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens under 320px */
+}
